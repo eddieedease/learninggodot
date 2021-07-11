@@ -2,10 +2,10 @@ extends KinematicBody2D
 
 # Main VARS
 
-const MAX_SPEED = 120;
-const ROLL_SPEED = 125;
-const ACCELERATION = 400;
-const FRICTION = 900;
+export var MAX_SPEED = 120;
+export var ROLL_SPEED = 125;
+export var ACCELERATION = 400;
+export var FRICTION = 900;
 
 
 var velocity = Vector2.ZERO

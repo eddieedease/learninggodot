@@ -508,6 +508,7 @@ tile_data = PoolIntArray( 0, 0, 196608, 1, 0, 196609, 2, 0, 196609, 3, 0, 196609
 
 [node name="Player" parent="YSort" instance=ExtResource( 2 )]
 position = Vector2( 56, 40 )
+MAX_SPEED = 121
 
 [node name="Bushes" type="YSort" parent="YSort"]
 
